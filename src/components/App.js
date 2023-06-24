@@ -5,13 +5,13 @@ import PageLayout from "./PageLayout";
 
 const App = () => {
 
-  const headerContent = <header>Welcome to my website.</header>;
-  const footerContent = <footer>©️ 2023 My Website.All rights reserved.</footer>
+  const headerContent = <h1>Welcome to my website.</h1>;
+  const footerContent = <p>© 2023 My Website. All rights reserved.</p>
 
   return (
     <div>
       <PageLayout header={headerContent} footer={footerContent}>
-        <p>This is the content of my website.</p>
+        <div>This is the content of my website.</div>
       </PageLayout>
     </div>
   )
