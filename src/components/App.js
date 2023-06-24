@@ -11,7 +11,7 @@ const App = () => {
   return (
     <div>
       <PageLayout header={headerContent} footer={footerContent}>
-        <div>This is the content of my website.</div>
+        <p>This is the content of my website.</p>
       </PageLayout>
     </div>
   )
